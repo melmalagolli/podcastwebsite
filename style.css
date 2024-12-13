@@ -1,0 +1,182 @@
+body {
+  background-color: #fef7e7;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+h1 {
+  color: #5e538b;
+}
+
+h2 {
+  color: #5e538b;
+  font-size: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  background-color: #fac2c2;
+}
+
+nav ul li {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  color: #5e538b;
+  font-family: "Poppins", sans-serif;
+  font-size: 100%;
+  transition: 350ms ease;
+}
+
+nav ul li a:hover {
+  background-color: #fbcfcf;
+  color: #fff;
+}
+
+/* Bron: OpenAi Chatgpt 4o "how to style navigation bar in html and css using ul in nav" */
+
+.content {
+  margin: auto;
+  margin-top: 5em;
+  width: 30em;
+  background-color: rgb(230, 226, 226);
+  padding: 2em;
+  text-align: center;
+  border-radius: 2em;
+}
+
+.subscribe-button {
+  background-color: #5e538b;
+  border: none;
+  color: white;
+  padding: 0.625em 2em;
+  text-align: center;
+  text-decoration: none;
+  font-size: 100%;
+  border-radius: 2em;
+  font-family: "Poppins", sans-serif;
+  transition: 350ms ease;
+}
+
+/* Bron: W3Schools.com https://www.w3schools.com/css/css3_buttons.asp  */
+
+.subscribe-button:hover {
+  background-color: #8577be;
+}
+
+.episode-overview {
+  display: flex;
+  gap: 2em;
+  padding: 1em;
+  justify-content: left;
+}
+
+.episode {
+  margin-left: 0.9em;
+  border-radius: 1em;
+  overflow: hidden;
+  width: 10em;
+  box-shadow: 0 1em 1em rgba(0, 0, 0, 0.1);
+}
+
+.episode img {
+  width: 100%;
+  display: block;
+}
+
+.discover {
+  color: #5e538b;
+  margin-left: 3em;
+}
+
+/* Bron: OpenAI Chatgpt 4o: how to make an episode overview on the homepage of a html page with css */
+
+.episodelist {
+  margin-left: 1em;
+}
+
+li {
+  list-style-type: none;
+  padding-left: 0;
+  overflow: hidden;
+}
+
+.episodes {
+  color: #5e538b;
+}
+
+.paragraph {
+  font-size: small;
+  overflow: hidden;
+  width: 80%;
+}
+
+.meetourpanel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 2em;
+  margin-top: 1em;
+  gap: 1em;
+}
+
+.image-container img {
+  width: 25em;
+  height: auto;
+  margin-top: -1em;
+}
+
+.image-container p {
+  display: block;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: -1em;
+  margin-bottom: 2em;
+  border-radius: 1em;
+  padding: 1em;
+  background-color: rgb(230, 226, 226);
+}
+
+.image-item {
+  text-align: center;
+  max-width: 30%;
+  justify-content: left;
+}
+
+/* Bron: OpenAI Chatgpt 4o "how do you align images next to each other with a caption with flexbox" */
+
+footer {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fac2c2;
+  color: #5e538b;
+  text-align: center;
+  padding: 1em 0;
+  font-size: small;
+}
+
+/* Bron:W3Schools.com https://www.w3schools.com/howto/howto_css_fixed_footer.asp */
